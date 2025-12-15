@@ -69,7 +69,7 @@ Compile and simulate using Icarus Verilog:
 
 ```bash
 # Compile RTL and testbench
-iverilog -o sim_output fc_layer_final.v tb_fc_layer.v
+iverilog -o sim_output fc_layer.v tb_fc_layer.v
 
 # Execute simulation
 vvp sim_output
