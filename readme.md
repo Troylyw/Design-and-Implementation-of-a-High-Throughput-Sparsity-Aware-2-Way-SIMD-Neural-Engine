@@ -6,7 +6,6 @@ This project presents a **high-performance Fully Connected (FC) Layer Hardware A
 
 Implemented in **Verilog HDL**, the design features a novel architecture that combines **2-Way SIMD (Single Instruction, Multiple Data) parallelism** with a **Dynamic Sparsity-Aware FSM**. By detecting and skipping zero-valued inputs at runtime (**Zero-Skipping**), the engine significantly reduces computation cycles and energy consumption when processing sparse neural network data (e.g., post-ReLU activations).
 
-This project was developed as the **Final Project for the Fall 2025 VLSI Design course**.
 
 ---
 
